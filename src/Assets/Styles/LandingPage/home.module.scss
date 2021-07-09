@@ -1,0 +1,51 @@
+@import "../config.scss";
+
+.marginTop{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+.productTitle{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.productSubTitle{
+  font-size: 0.8rem;
+}
+
+
+.imageContainer{
+  background-color: #F6F6F6;
+}
+
+.childCintainer{
+  overflow-x: scroll;
+}
+
+.productImage{
+  height: 13rem;
+  object-fit: cover;
+}
+
+.productDetailImage{
+  height: 30rem;
+  object-fit: cover;
+}
+
+.productChildImage{
+  height: 5rem;
+  object-fit: cover;
+}
+
+.textProduct{
+  font-weight: 700;
+}
+.textCategory{
+  font-size: 16px;
+}
+.textDescription{
+  font-size: 18px;
+  line-height: 30px;
+}

@@ -1,0 +1,55 @@
+@import "../config.scss";
+
+.btnDaftar {
+  background: $PRIMARY;
+  box-shadow: 0px 20px 20px rgba(58, 87, 226, 0.2);
+  border-radius: 14px;
+  p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+  }
+}
+
+.navTitle {
+  font-size: 30px;
+  line-height: 45px;
+  color: $PRIMARY;
+}
+
+.navLink {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3a4149;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: none;
+  color: #3a4149;
+}
+
+.navLink:active {
+  text-decoration: none;
+  color: #3a4149;
+}
+
+.navLinkActive{
+  border-bottom: 1px solid #3a4149;
+}
+
+.badge{
+  border-radius: 8px;
+  position: relative;
+  top: -10px;
+  right: 8px;
+}

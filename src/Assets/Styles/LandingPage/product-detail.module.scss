@@ -1,0 +1,26 @@
+.textProduct{
+  font-weight: 700;
+}
+.textCategory{
+  font-size: 16px;
+}
+.textDescription{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.color{
+  padding: 15px;
+  border-radius: 15px;
+}
+.selectedColor{
+  border: 3px solid #000;
+}
+
+.cardFooter{
+  padding: 20px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
